@@ -68,6 +68,52 @@ Grid
 
 /*
 ============================================
+Clearfix
+============================================
+*/
+
+.group:before,
+.group:after {
+    content: "";
+    display: table;
+}
+.group:after {
+    clear: both;
+}
+.group {
+    clear: both;
+    *zoom: 1;
+}
+
+/*
+============================================
+Primary header
+============================================
+*/
+
+.logo {
+    border-top: 4px solid #648880;
+    padding: 40px 0 22px 0;
+    float: left;
+}
+
+/*
+============================================
+Primary footer
+============================================
+*/
+
+.primary-footer {
+    padding-bottom: 44px;
+    padding-top: 44px;
+}
+
+.primary-footer small {
+    float: left;
+}
+
+/*
+============================================
 Typography
 ============================================
 */
