@@ -118,6 +118,16 @@ Clearfix
 
 /*
 ============================================
+Navigation
+============================================
+*/
+
+.nav {
+    text-align: right;
+}
+
+/*
+============================================
 Primary header
 ============================================
 */
@@ -131,10 +141,13 @@ Primary header
 }
 .tagline {
     margin: 66px 0 22px 0;
+    text-align: right;
 }
 .primary-nav {
     font-size: 14px;
     font-weight: 400;
+    letter-spacing: .5px;
+    text-transform: uppercase;
 }
 
 /*
@@ -184,6 +197,7 @@ h5 {
     color: #a9b2b9;
     font-size: 14px;
     font-weight: 400;
+    text-transform: uppercase;
 }
 strong {
     font-weight: 400;
@@ -203,6 +217,10 @@ a:hover {
 }
 a {
     color: #648880;
+    text-decoration: none;
+}
+p a {
+    border-bottom: 1px solid #dfe2e5;
 }
 
 /*
@@ -230,6 +248,7 @@ Home
 .hero {
     line-height: 44px;
     padding: 22px 80px 66px 80px;
+    text-align: center;
 }
 .hero h2 {
     font-size: 36px;
